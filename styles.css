@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ad9e9e;
+   }
+   
+   .portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   
+   .profile {
+    text-align: center;
+   }
+   
+   .profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+   }
+   
+   .hobby, .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    height: 50%;
+   }
+   
+   .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+   }
+   
+   .button:hover {
+    background-color: #0056b3;
+   }
+
+   *{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+
+   }
